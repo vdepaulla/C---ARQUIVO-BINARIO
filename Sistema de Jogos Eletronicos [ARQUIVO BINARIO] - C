@@ -95,7 +95,7 @@ void InserirJogos(void);
 void InserirPart(void);
 void InserirCamp(void);
 void InserirNick(void);
-//-----------------------------FUNÇÕES
+//-----------------------------FUNÃ‡Ã•ES
 
 void background(int xi, int yi, int xf, int yf)
 {
@@ -208,7 +208,7 @@ char MenuPrincipal(void)
 		opc = toupper(getch());
 }
 
-//-----------------------------FUNÇOES DE BUSCA
+//-----------------------------FUNÃ‡OES DE BUSCA
 
 int BuscaCampeonato(FILE *ponteiro, int COD) //BUSCA EXALTIVA [ATIVO]
 {
@@ -306,7 +306,7 @@ int BuscaControleCOD(FILE *ponteiro, int COD)
 	else
 		return -1;		
 }
-//-----------------------------FUNÇÕES DE CADASTRO
+//-----------------------------FUNÃ‡Ã•ES DE CADASTRO
 
 void CadastroTipoDeJogos(void)
 {
@@ -560,7 +560,7 @@ int AnalisePartCamp(FILE *ponteiro, int CODCamp, int CODPart)
     else
         return -1;
 }
-//-----------------------------FUNÇÕES DE ALTERAÇÃO
+//-----------------------------FUNÃ‡Ã•ES DE ALTERAÃ‡ÃƒO
 
 void AlterarTipoDeJogos(void)
 {
@@ -781,7 +781,7 @@ void AlterarControle(void)
 	fclose(ponteiroP);	
 }
 
-//-----------------------------FUNÇÕES DE CONSULTA
+//-----------------------------FUNÃ‡Ã•ES DE CONSULTA
 
 void ConsultaTipoDeJogos(void)
 {
@@ -960,7 +960,7 @@ void ConsultaControle(void)
 	fclose(ponteiro);	
 }
 
-//-----------------------------FUNÇÕES DE RELATORIO
+//-----------------------------FUNÃ‡Ã•ES DE RELATORIO
 
 void RelatorioJogos(void)
 {
@@ -1120,7 +1120,7 @@ void RelatorioControle(void)
 	fclose(ponteiro);
 }
 
-//-----------------------------FUNÇÕES DE ORDENAÇÃO
+//-----------------------------FUNÃ‡Ã•ES DE ORDENAÃ‡ÃƒO
 
 void ORDJogos(void)
 {
@@ -1246,7 +1246,7 @@ void ORDControle(void)
 	fclose(ponteiro);
 }
 
-//-------------------------FUNÇÕES DE EXCLUSAO
+//-------------------------FUNÃ‡Ã•ES DE EXCLUSAO
 
 void ExclusaoJogo(void)
 {
@@ -1968,7 +1968,7 @@ void InserirNick(void)
 	
 	fclose(ponteiro);
 }
-//-----------------------------FUNÇÕES PRINCIPAIS
+//-----------------------------FUNÃ‡Ã•ES PRINCIPAIS
 
 void Executar(void)
 {
